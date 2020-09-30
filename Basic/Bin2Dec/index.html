@@ -7,11 +7,16 @@
     <title>Bin2Dec</title>
 </head>
 <body>
-    <h1> Do your convertion</h1>
 
-    <input id="binNumber" type="text" placeholder="Insira o numero Binario">
-    <button onclick="conversor()">Convert</button>
-    <div id="board"></div>
+    <div class="container">
+        <h1> Bin2Dec</h1>
+        <input id="binNumber" type="text" placeholder="Insira o numero Binario">
+        <div id="board"></div>
+    <button onclick="conversor()" class="btn" id="btn-conversor">Convert</button>
+    <button onclick="erase()" class="btn" id="btn-erase">Apagar</button>
+    <p>developed by Adamastor Chimalange</p>
+    </div>
+    
 
     <script src="main.js"></script>
 </body>

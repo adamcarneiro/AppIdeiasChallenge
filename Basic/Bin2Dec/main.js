@@ -49,4 +49,8 @@ function conversor() {
             }
 }
 
-
+function erase() {
+    document.querySelector('#binNumber').value='';
+    document.querySelector('#board').innerHTML='';
+}
+//document.querySelector('#btn-erase').onclick=erase;
